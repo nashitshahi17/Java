@@ -1,8 +1,7 @@
-package Strings;
-
 public class Main {
     public static void main(String[] args) {
         String s = "Java";
-        System.out.print(s);
+        StringBuilder sb = new StringBuilder(s);
+        System.out.println(sb.reverse().toString());
     }    
 }
